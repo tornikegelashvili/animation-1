@@ -1,0 +1,48 @@
+.back{
+    width: 2000px;
+    height: 1400px;
+    background-image: url(../animation-1/image/road.jpg);
+    background-size: cover;
+    position: absolute;
+   
+}
+.car-1 img{
+    top: 1200px;
+    width: 300px;
+    height:200px ;
+    position: absolute;
+    
+    animation-name: car;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes car {
+    from{
+        left: 10px;
+    }
+    to{
+        left:2000px;
+    }
+}
+.car-2 img{
+    top: 1140px;
+    width: 300px;
+    height:200px ;
+    position: absolute;
+    animation-name: car-2;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes car-2 {
+    from{
+        right: 10px;
+    }
+    to{
+        right:2000px;
+    }
+}
